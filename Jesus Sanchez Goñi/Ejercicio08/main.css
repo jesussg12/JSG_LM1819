@@ -62,5 +62,15 @@ body {
     border-top: 2px solid #999999
 }
 
+article {
+    background: #ffbbcc
+    border: 1px solid #99999
+    padding: 20px;
+}
+
+article footer {
+    text-align: center;
+}
+
 
 
