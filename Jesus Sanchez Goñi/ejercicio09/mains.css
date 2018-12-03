@@ -22,12 +22,12 @@ div#capa1 a.encima:hover {
     background: gray;
 }
 
-p#miparrafo::first-line {
+p#miparrafo:first-line {
     color:red;
     font-size: 40px;
 }
 
-p#miparrafo::first-letter{
+p#miparrafo:first-letter{
     color:blue;
     font-size: 40px;
 }
@@ -36,8 +36,12 @@ div#cap1 * {
     background: yellow;
 }
 
-div > a {
+div> a {
     font-style: italic
+}
+
+.capa2 {
+    border: 1px solid black
 }
 
 
