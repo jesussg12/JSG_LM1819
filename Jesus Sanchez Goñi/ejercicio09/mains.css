@@ -11,7 +11,7 @@ div#capa1 {
 }
 
 .letragrande {
-    font-size: 22px
+    font-size:22px
 }
 
 .nosubrayado {
@@ -21,4 +21,23 @@ div#capa1 {
 div#capa1 a.encima:hover {
     background: gray;
 }
+
+p#miparrafo::first-line {
+    color:red;
+    font-size: 40px;
+}
+
+p#miparrafo::first-letter{
+    color:blue;
+    font-size: 40px;
+}
+
+div#cap1 * {
+    background: yellow;
+}
+
+div > a {
+    font-style: italic
+}
+
 
