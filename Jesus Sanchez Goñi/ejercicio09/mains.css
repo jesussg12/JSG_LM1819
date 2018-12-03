@@ -28,12 +28,12 @@ p#miparrafo:first-line {
 }
 
 p#miparrafo:first-letter{
-    color:blue;
+    color: blue
     font-size: 40px;
 }
 
 div#cap1 * {
-    background: yellow;
+    background: yellow
 }
 
 div> a {
@@ -41,7 +41,7 @@ div> a {
 }
 
 .capa2 {
-    border: 1px solid black
+    border: 1px solid black;
 }
 
 
