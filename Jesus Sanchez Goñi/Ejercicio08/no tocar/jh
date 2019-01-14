@@ -1,0 +1,69 @@
+<html>
+<body>
+<h1>Bailes ofertados</h1>
+<table style="border:1px solid black">
+<tr>
+	<th> Nombre</th>
+	<th>Profesor</th>
+	<th>Plazas</th>
+</tr>
+{
+for $baile in //Bailes/baile
+let $nombre:=$Baile/nombre
+let $profesor:=$baile/profesor
+let $plazas:=$baile/plazas
+where $baile/precio[@cuota="trimestral"]
+order by $baile/plazas descending
+return
+	<tr>
+		<td>{data($nombre)}</td>
+		<td>{data($profesor)}</td>
+		<td>{data($plazas)}</td>
+	</tr>
+}
+</table>
+</body>
+</html>
+insert node 
+<baile id="7">
+<nombre>Foxtrot</nombre>
+<precio cuota="mensual" moneda="dolares">22</precio>
+<plazas>12</plazas>
+<fin>comienzo>01/03/2020</fin>
+<profesor>Freddy</profesor>
+<sala>3</sala>
+</baile>
+before //Bailes/baile[1]
+replace value of node //Bailes/Baile[@id=8]/profesor 
+with "Profeeee"
+,
+replace valuen of node //Bailes/baile[@id=6]/plazas
+with 20000
+insert node 
+<baile id="7">
+<nombre>Foxtrot</nombre>
+<precio cuota="mensual" moneda="dolares">22</precio>
+<plazas>12</plazas>
+<fin>comienzo>01/03/2020</fin>
+<profesor>Freddy</profesor>
+<sala>3</sala>
+</baile>
+before //Bailes/baile[1]
+
+replace value of node //Bailes/Baile[@id=8]/profesor 
+with "Profeeee"
+,
+replace valuen of node //Bailes/baile[@id=6]/plazas
+with 20000
+
+delete node //Bailes/baile[@id=7]
+
+for $t in do("Biblioteca.xml")//libro, 
+$e in doc("Prestamos.xml")//entrada
+where %t/titulo=$e/titulo
+order by $e/prestamo/inicio
+return 
+	<prestamo>
+	{$t/titulo, $t/autor/*, $e/prestamo/inicio, $e/prestamo/devolución}
+	</prestamo>
+	</prestamo>
