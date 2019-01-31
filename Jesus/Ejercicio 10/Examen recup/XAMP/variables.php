@@ -9,7 +9,7 @@
 <body>
     <?php
         echo "Hola";
-        echo "<b>Hola</b>" a todos;
+        echo "<b>Hola</b> a todos";
         print "<p>Hola</p>\n";
 
         $saludo = "Holaaa";
@@ -67,10 +67,10 @@
             print $tabla3[2];
 
             // Borrar un valor
-            unset ($tabla3[2]);
+            //unset ($tabla3[2]);
             print $tabla3[2];
 
-            unset($tabla3);
+            //unset($tabla3);
             print $tabla3[0];
 
             //unset (tabla3);
@@ -110,7 +110,7 @@
             print "<p>EL valor de PI es". PI ."</p>";
 
             print "<pre>";
-            print_r(get_defined_constants()));
+            print_r(get_defined_constants());
             print "</pre>";
 
             $maximo = PHP_INT_MAX;
