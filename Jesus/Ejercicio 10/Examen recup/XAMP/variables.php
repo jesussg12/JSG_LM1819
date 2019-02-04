@@ -114,7 +114,8 @@
             print "</pre>";
 
             $maximo = PHP_INT_MAX;
-            echo $maximo;
+            echo $maximo
+                
         ?>
 </body>
 </html>
