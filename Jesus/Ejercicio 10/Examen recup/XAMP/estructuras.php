@@ -51,6 +51,33 @@ for ($i=6; $i >= 0; $i --) {
     ?>
     
 
+    <?php 
+     
+     $hora = date ("H");
+     if ($hora >= 8 && $hora <=12) {
+         echo "Buenos dias";     
+     } else if  ($hora > 12 && $hora <=20) {
+         echo "Buenas tardes";
+     } else {
+         echo "Buenas Noches";
+     }
+
+     ?>
+
+     <?php
+    echo "<br/>"
+    $numero =rand (1, 100);
+    $digitos = strlen ($numero);
+
+    if ($numero < 10 ) {
+        $digitos = 1;    
+    } else if ($numero < 100) {
+        $digitos = 2; 
+    } else {
+        
+    }
+
+     
 
 
 </body>
