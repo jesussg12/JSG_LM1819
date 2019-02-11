@@ -10,22 +10,23 @@
     
 <?php
 for ($tabla=1; $tabla=++) //<-
-for ($tabla=2; $tabla=++) //<-
 {
     echo "<h3>Tabla del $tabla </h3>";
-    
-    // generamos la tabla
     for($i=1; $i<=10; $i++) 
     {
      echo "$tabla x $i = ". ($tabla*$i) . "<br/>";
     }
    }
-
-
-
-
 ?>
-
+<?php
+$dia=date("d");
+$inicio=1;
+while ($inicio<=$dia)
+{
+  echo $inicio."<br>";
+  $inicio++;
+}
+?>
 
 </body>
 </html>
