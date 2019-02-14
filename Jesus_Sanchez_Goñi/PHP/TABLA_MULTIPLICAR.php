@@ -28,5 +28,8 @@ while ($inicio<=$dia)
 }
 ?>
 
+
+
+
 </body>
 </html>
