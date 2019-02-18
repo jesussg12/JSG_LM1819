@@ -1,7 +1,8 @@
 <?php
 
-if ($_REQUEST["nombre"]!="") {
-    print "<p>Su nombre es $_REQUEST[nombre]</p>";
+$nombre= trim(htmlspecialchars(strip_tags($_RESQUEST["nombre"]), ENT_QUOTES, "UTF-8"));
+if ($nombre != "") {
+    print "<p>Su nombre es $nombre</p>";
 }
 
 if (isset($_REQUEST["opcion"])) {
