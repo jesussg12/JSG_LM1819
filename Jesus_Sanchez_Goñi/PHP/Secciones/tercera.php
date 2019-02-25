@@ -9,7 +9,7 @@
 <body>
     <?php
     session_star();
-    print "Hola" .$_SESSION['nombreWeb'];
+    print "Hola" . $_SESSION['nombreWeb'];
     ?>
     
 </body>
