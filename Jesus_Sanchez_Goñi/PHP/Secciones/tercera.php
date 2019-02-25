@@ -8,6 +8,7 @@
 </head>
 <body>
     <?php
+    session_star();
     print "Hola" .$_SESSION['nombreWeb'];
     ?>
     
