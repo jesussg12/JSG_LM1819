@@ -11,7 +11,7 @@
         if (isset($_COOKIE['color'])) {
             echo $_COOKIE['color'];
         }
-    ?>
+    ?>">
     <form action="cambiar.php">
     <p>
         Seleccione color de fondo:
@@ -22,6 +22,7 @@
     <p>
         <input type="submit" value="Enviar"/>
     </p>
+    </form>
 
 </body>
 </html>
