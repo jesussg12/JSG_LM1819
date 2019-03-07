@@ -7,27 +7,30 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
 <body>
-    <div>
-        <?php
-            if (isset($RESQUET["error"])) {
-                print "<p> style='color: red'> $RESQUEST[error]
+<div style="margin: 0 auto; width: 200px">
+        <div><?php
+            if (isset($_RESQUET["error"])) {
+                print "<p style='color: red'> $_RESQUEST[error] </p>";
             }
         ?>
-
     </div>
 
     <form method="POST" action="segundo.php">
     <p>
         <label for="usuario">Usuario</label>
-        <input type="text" name="usuario" id="usuario" value=""/>
+        <input type="text" name="usuario" id="usuario" value="<?php
+            if (isset($_COOKIE["usuarioWeb"])) {
+                echo $_COOKIE["usuarioWeb"];
+            }?>"/>
     </p>
     <p>
-        <label for="password"></label>
+        <label for="password">Password</label>
         <input type ="password" name="password" id="password" value="">
     </p>
     <p>
-        <input type="submit" value="Entar">
+        <input type="submit" value="Entrar">
     </p>
     </form>
+    </div>
 </body>
 </html>
