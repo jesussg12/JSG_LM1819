@@ -13,7 +13,11 @@
 
         while ($reg = mysqli_fetch_array($registros)) {
             echo "Codigo: " .$reg['idAlumno'] . "<br>";
+            echo "Nombre: " .$reg['nombre'] . "<br>";
+            echo "Email: " .$reg['mail'] . "<br>";
+            echo "Curso: " .$reg['nombreCurso'] . "<br>";
         }
+    mysqli_close($conexion);    
 
     ?>
 
