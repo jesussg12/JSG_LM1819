@@ -18,6 +18,7 @@
         echo "<table class='table table-striped'>";
         echo "<tr><th>Código</th><th>Nombre</th><th>Email</th><th>Curso</th></tr>";
         while ($reg = mysqli_fetch_array($registros)) {
+            echo "<tr>";
             echo "<td>" .$reg['idAlumno'] . "</td>";
             echo "<td>" .$reg['nombre'] . "</td>";
             echo "<td>" .$reg['mail'] . "</td>";
