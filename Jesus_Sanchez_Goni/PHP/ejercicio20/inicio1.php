@@ -14,7 +14,7 @@
     <body>
         <div class="container">
             <h2>Insertar Alumno con Join</h2>
-            <form action="insertar.1.php" method="post">
+            <form action="insertar.1.php" method="post"
                 <div class="form-group">
                     <label for="nombre">Nombre Alumno</label>
                     <input type="text" class="form-control" name="nombre" id="nombre" required>
