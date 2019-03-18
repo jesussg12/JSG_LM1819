@@ -7,9 +7,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
 <body>
-        <form action="peso3.php">
+        <form action="peso3.php">            
         <div class="container">
-                <h2>SIGA LAS INTRUCCIONES</h2>
+              
                 <form action="insertar.php" method="post">
                     <div class="form-group">
                         <label for="number">PESO</label>

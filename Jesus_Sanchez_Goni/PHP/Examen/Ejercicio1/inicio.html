@@ -7,15 +7,17 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
 <body>
-        <form action="2.php"></form>
-        <form action="accion.php" method="post">
-                <label for="number">área</label>
+    <h2>FORMULARIO PARA CALCULAR EL ÁREA Y/O EL PERÍMETRO DE UN RECTÁNGULO</h2>
+        <form action="2.php">
+                <label for="number">Base</label>
                         <input type="number" class="form-control" name="number" id="numero" required>
                         <label for="number">altura</label>
                         <input type="number" class="form-control" name="number" id="numero" required>
-                <p><input type="submit" /></p>
-               </form>
-
+                   <p>¿Qué desea calcular?</p>
+                    <input type="radio" name="gender" value="AREA" required> Área<br>
+                    <input type="radio" name="gender" value="PERIMETRO" required> Perímetro<br>
+                  <p><input type="submit" value="CALCULAR"/></p>
+                </form>
 
     
 </body>
