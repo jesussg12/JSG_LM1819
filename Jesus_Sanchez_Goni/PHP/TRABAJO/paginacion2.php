@@ -9,7 +9,7 @@
 <body>
     <?php
     // Establecer la conexión
-    $conexion = mysqli_connect("localhost", "root", "root", "cursophp")
+    $conexion = mysqli_connect("localhost", "root", "", "cursophp")
       or die("Problemas de conexión");
     // cantidad de registros por página
     $por_pagina = 2;

@@ -13,7 +13,7 @@
     } else {
         $inicio = 0;
     }
-    $conexion = mysqli_connect("localhost", "root", "root", "cursophp")
+    $conexion = mysqli_connect("localhost", "root", "", "cursophp")
       or die("Problemas de conexión");
     $registros = mysqli_query($conexion, 
       "SELECT idAlumno, nombre, mail, codigocurso, nombreCurso
