@@ -1,11 +1,13 @@
 <?xml version="1. 0" encoding="utf-8"?>
 
+
 <Instituto>
 
 <Alumnos>
     <Alumno>
     <nombre>Alejandro</nombre>
     <apellido>Gómez</apellido>
+    <curso>1º CFGS</curso>
     </alumno>
 <alumnos/>
 
@@ -13,6 +15,7 @@
     <Profesor>
     <nombre>Manuel</nombre>
     <apellido>Alonso</apellido>
+    <asignatura>FOL</asignatura>
     </Profesor>
 <Profesores/>
 
@@ -20,6 +23,7 @@
     <trabajador>
     <nombre>Samuel</nombre>
     <apellido>Ledesma</apellido>
+    <puesto>Conserje</puesto>
     </trabajador>
 
 </Trabajadores>

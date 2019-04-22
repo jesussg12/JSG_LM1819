@@ -1,0 +1,30 @@
+<?xml version="1. 0" encoding="utf-8"?>
+
+
+<Biblioteca>
+
+<Libros>
+    <Libro>
+    <Título>50 sombras de Grabiel</Título>
+    <editorial>Anaya</editorial>
+    <ID prestado="No">123456</ID>
+    <autor>Grabiel Montes</autor>
+    </Libro>
+<Libros/>
+
+<Libros>
+    <Libro>
+    <Título>Risto</Título>
+    <editorial>Milano</editorial>
+    <ID prestado="Sí">23456</ID>
+    <autor>Pedro Sánchez</autor>
+    </Libro>
+
+</Libros>
+
+
+
+
+
+
+</Biblioteca>
