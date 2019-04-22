@@ -1,0 +1,36 @@
+<?xml version="1. 0" encoding="utf-8"?>
+
+<Instituto>
+
+<Alumnos>
+    <Alumno>
+    <nombre>Alejandro</nombre>
+    <apellido>Gómez</apellido>
+    </alumno>
+<alumnos/>
+
+<Profesores>
+    <Profesor>
+    <nombre>Manuel</nombre>
+    <apellido>Alonso</apellido>
+    </Profesor>
+<Profesores/>
+
+<Trabajadores>
+    <trabajador>
+    <nombre>Samuel</nombre>
+    <apellido>Ledesma</apellido>
+    </trabajador>
+
+</Trabajadores>
+
+
+
+</Instituto>
+
+
+
+
+
+
+
