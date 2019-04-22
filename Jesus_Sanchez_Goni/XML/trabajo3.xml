@@ -4,9 +4,9 @@ xmlns:ped='http://Espacio_de_nombres_XML/pedido'>
 <cli:numero_ID>123456</cli:numero_ID>
 <cli:nombre>Paco Gómez</cli:nombre>
 <cli:telefono>685966784</cli:telefono>
-<ped:compra>
+<lib:compra>
 <lib:numero_ID>6523213</ped:numero_ID>
 <lib:articulo>la paella valenciana</ped:articulo>
 <lib:precio>18,90</ped:precio>
-</ped:compra>
+</lib:compra>
 </cli:cliente>
